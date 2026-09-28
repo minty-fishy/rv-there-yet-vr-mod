@@ -1,45 +1,64 @@
 # RV There Yet? — VR Mod
 
-MintyFishy's unofficial PC VR mod, powered by [praydog's UEVR](https://github.com/praydog/UEVR).
+Play **RV There Yet?** in VR on your Windows PC. Move your hands, hold tools, and aim with your VR controllers.
+
+This free fan mod is made by MintyFishy. It uses [praydog's UEVR](https://github.com/praydog/UEVR) to add VR to the game.
 
 ## Download
 
-[**Download v0.2.2 Preview (ZIP)**](https://github.com/minty-fishy/rv-there-yet-vr-mod/releases/download/v0.2.2/RV-There-Yet-VR-Mod-0.2.2.zip)
+[**Download version 0.2.3 (ZIP)**](https://github.com/minty-fishy/rv-there-yet-vr-mod/releases/download/v0.2.3/RV-There-Yet-VR-Mod-0.2.3.zip)
 
-[Release notes and checksum](https://github.com/minty-fishy/rv-there-yet-vr-mod/releases/tag/v0.2.2)
+This is a **preview**, so some things still need testing. [See what changed.](https://github.com/minty-fishy/rv-there-yet-vr-mod/releases/tag/v0.2.3)
 
-## Get started
+## What you need
 
-1. Install RV There Yet? in Steam and open it normally once.
-2. Extract the downloaded ZIP to a folder and open **RVThereYetVR.exe**.
-3. Close the game and click **Install**. Wait for setup to finish.
-4. Connect your PC VR headset, then click **Play in VR**.
+- A Windows PC (64-bit).
+- RV There Yet? from Steam. This mod supports game build **25458807**.
+- A VR headset linked to your PC and working VR controllers.
+- An internet connection for setup and updates.
 
-If Virtual Desktop shows a flat screen, select **Switch to VR** in its menu.
-The first install needs internet to download VR support. You do not need a separate .NET installation or to copy files into the game folder.
+## Start playing
 
-## What is included?
+1. Open the game in Steam once, then close it.
+2. Download the ZIP above. Right-click it and choose **Extract All**.
+3. Put the new folder somewhere you can keep it, such as Documents.
+4. Open **RVThereYetVR.exe**. Click **Install** and wait for setup to finish.
+5. Connect your headset to your PC. Click **Play in VR**.
 
-- Tracked custom hands and held items.
-- Controller aiming and saved menu/gameplay camera and HUD layouts.
-- Empty-hand push, cigarette and winch-remote gestures.
-- A simple themed launcher with Install, Play in VR, Uninstall and Help.
+If Virtual Desktop shows a flat screen, choose **Switch to VR** in its menu.
 
-Open **How to play / Help** in the launcher for controls and troubleshooting.
-The advanced UEVR panel starts closed; open it with **Insert** or both thumbsticks.
+The app gets the VR files for you. You do not need to copy files into the game folder or install .NET yourself.
+
+Next time, close the game first. Open this app and click **Play in VR**.
+
+## Get updates in the app
+
+From version **0.2.3**, the app checks for updates each time it opens. When a new version is ready, an **Update** button appears.
+
+Close the game, then click **Update**. The app downloads the new version, checks it, and restarts. Your saved hand fits and VR settings stay in place. You can also check from **How to play / Help**.
+
+The app includes new preview releases in its checks. It only installs an update when you click the button. If you are offline, you can still use the app.
+
+**Have version 0.2.2?** Download 0.2.3 from the link above once. Close the old app, then extract the new ZIP into your app folder. Version 0.2.2 cannot check for updates.
+
+## What you can do
+
+- See custom hands that follow your controllers.
+- Hold tools and aim with your right hand.
+- Push with both hands when they are empty.
+- Use hand gestures for the cigarette and winch remote.
+- Use saved views for the main menu and the game.
+
+Open **How to play / Help** for controls and help. For more VR settings, press **Insert** or click both thumbsticks.
 
 ## Remove the mod
 
-Close the game and click **Uninstall**. The app restores the profile files it replaced. Game files and saves stay in place. You can then play normally from Steam.
+Close the game and click **Uninstall**. The app puts back the files it replaced. Your game and saves stay in place. You can then play from Steam as usual.
 
-## Compatibility and preview status
+## What still needs testing
 
-- Windows x64; Steam game build **25458807**.
-- Pinned UEVR nightly **01143**, downloaded from its official source during setup.
-- The gameplay base has been tested in solo play with Virtual Desktop.
-- Co-op, other headset/runtime combinations and the full first-user setup/removal walkthrough for this package remain unverified.
-- This is an unsigned preview. A Steam game update may require a compatible mod release.
+Solo VR play has been tested with Virtual Desktop. Co-op, other PCs, and other headset apps still need testing. A full test of setup, headset play, and removal with this package is also pending.
 
-**Check for updates is not connected in this preview.** Get future versions from this repository's [Releases](https://github.com/minty-fishy/rv-there-yet-vr-mod/releases). Close the launcher before replacing its files; saved VR fits and preferences remain on your PC.
+This app is not signed. A new Steam game update may need a new mod version. Setup uses UEVR nightly **01143**.
 
-This repository hosts consumer downloads and setup instructions. The ZIP includes credits and third-party notices. It contains no UEVR libraries or game executable. RV There Yet? and its imagery belong to their respective rights holders; this is an unofficial fan mod.
+This repo holds the download and this guide. The ZIP includes credits and license notices. The game belongs to its owners. This mod is not made by the game's team.
